@@ -28,7 +28,7 @@ for dirc in glob.glob('*.htm*'):
     if cpuv > 0 and ramv > 3:
         print('not object of upgrade')
     else:
-        dmp = open('123.txt', 'a')
+        dmp = open('output.txt', 'a')
         dmp.write(nam+' ')
         dmp.write(cpu+' ')
         dmp.write(ram+'\n')
